@@ -1,6 +1,7 @@
-nota = float(input("Digite uma nota entre 0 e 10:"))
-
-if nota >= 0 and nota <=10:
-    print("Nota válida")
-else:
-    print("Nota inválida. Digite novamente!")
+while True:
+    nota = float(input("Digite uma Nota: "))
+    if nota > 10 or nota <0:
+        print("Digite um número válido")
+    else:
+        break
+print(f'Sua nota é {nota}')
